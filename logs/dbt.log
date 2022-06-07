@@ -1,0 +1,107 @@
+
+
+============================== 2022-06-07 18:20:37.805008 | b3cca0d2-97bb-44db-92f8-808d78e57f8d ==============================
+18:20:37.805008 [info ] [MainThread]: Running with dbt=1.0.4
+18:20:37.805008 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:20:37.809794 [debug] [MainThread]: Tracking: tracking
+18:20:37.824064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7307099A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A730709520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7307097F0>]}
+18:20:37.860068 [debug] [MainThread]: Executing "git --help"
+18:20:37.887071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7307762B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7307769A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A730776250>]}
+
+
+============================== 2022-06-07 18:21:02.668296 | 61080c01-1bb0-495f-81a7-9b7b86e14846 ==============================
+18:21:02.668296 [info ] [MainThread]: Running with dbt=1.0.4
+18:21:02.668296 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:21:02.668296 [debug] [MainThread]: Tracking: tracking
+18:21:02.686937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C949970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C9494F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C949910>]}
+18:21:02.720939 [debug] [MainThread]: Executing "git --help"
+18:21:02.748943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C9B9A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C9B9820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68C9B9A60>]}
+
+
+============================== 2022-06-07 18:21:28.572211 | b7a295e3-7c5a-4af4-8571-2fbedf121700 ==============================
+18:21:28.572211 [info ] [MainThread]: Running with dbt=1.0.4
+18:21:28.572211 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:21:28.572211 [debug] [MainThread]: Tracking: tracking
+18:21:28.593645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D50399D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D5039550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D5039820>]}
+18:21:28.817551 [debug] [MainThread]: Executing "git --help"
+18:21:28.841548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D537B970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D537B700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000285D537B940>]}
+
+
+============================== 2022-06-07 18:24:10.519373 | adfae87e-5bde-41e9-ba2f-74a87d52e621 ==============================
+18:24:10.519373 [info ] [MainThread]: Running with dbt=1.0.4
+18:24:10.520374 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:24:10.521376 [debug] [MainThread]: Tracking: tracking
+18:24:10.535375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C71DD9A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C71DD95E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C71DD98B0>]}
+18:24:10.812592 [debug] [MainThread]: Executing "git --help"
+18:24:10.837592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C7211B910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C7211B6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C7211B8E0>]}
+
+
+============================== 2022-06-07 18:26:43.319046 | f6adc0a4-af2e-4654-b860-c9ccebd8d48c ==============================
+18:26:43.319046 [info ] [MainThread]: Running with dbt=1.0.4
+18:26:43.319046 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:26:43.325737 [debug] [MainThread]: Tracking: tracking
+18:26:43.339081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865939A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865939580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865939850>]}
+18:26:43.538106 [debug] [MainThread]: Executing "git --help"
+18:26:43.564110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865C7B9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865C7B7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018865C7B940>]}
+
+
+============================== 2022-06-07 18:26:57.531054 | 0498b518-ff5d-4642-8f25-2ac39ccfcd5f ==============================
+18:26:57.531054 [info ] [MainThread]: Running with dbt=1.0.4
+18:26:57.532055 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:26:57.533054 [debug] [MainThread]: Tracking: tracking
+18:26:57.548055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE029199D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE02919550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE02919820>]}
+18:26:57.794579 [debug] [MainThread]: Executing "git --help"
+18:26:57.820575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE02C5C970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE02C5C700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE02C5C940>]}
+
+
+============================== 2022-06-07 18:32:12.639365 | f38e207f-595e-4287-9a26-05d3b5dbf55d ==============================
+18:32:12.639365 [info ] [MainThread]: Running with dbt=1.0.4
+18:32:12.639365 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:32:12.642446 [debug] [MainThread]: Tracking: tracking
+18:32:12.658441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D34F9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D34F94F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D34F9910>]}
+18:32:12.916162 [debug] [MainThread]: Executing "git --help"
+18:32:12.945164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D383B940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D383B760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D383B8B0>]}
+
+
+============================== 2022-06-07 18:35:40.182670 | 761e079d-750a-47ff-b5e0-6b56aa3dab0b ==============================
+18:35:40.182670 [info ] [MainThread]: Running with dbt=1.0.4
+18:35:40.182670 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:35:40.198094 [debug] [MainThread]: Tracking: tracking
+18:35:40.210381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B4799D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B479550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B479820>]}
+18:35:40.401436 [debug] [MainThread]: Executing "git --help"
+18:35:40.426433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B7BB970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B7BB700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DB1B7BB940>]}
+
+
+============================== 2022-06-07 20:23:24.985525 | e8175acf-080e-4ad0-884f-77b5f88aa43e ==============================
+20:23:24.985525 [info ] [MainThread]: Running with dbt=1.0.4
+20:23:25.008822 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+20:23:25.009823 [debug] [MainThread]: Tracking: tracking
+20:23:25.025823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DBE59970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DBE594F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DBE59910>]}
+20:23:26.102950 [debug] [MainThread]: Executing "git --help"
+20:23:26.141953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DC19D940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DC19D760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150DC19D910>]}
+
+
+============================== 2022-06-07 20:23:50.379671 | 32bc4979-b924-45cb-84a3-60b9be90a9fd ==============================
+20:23:50.379671 [info ] [MainThread]: Running with dbt=1.0.4
+20:23:50.380671 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+20:23:50.381672 [debug] [MainThread]: Tracking: tracking
+20:23:50.393674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC111C9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC111C94F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC111C9910>]}
+20:23:50.590687 [debug] [MainThread]: Executing "git --help"
+20:23:50.614689 [debug] [MainThread]: Acquiring new sqlserver connection "debug"
+20:23:50.614689 [debug] [MainThread]: Opening a new connection, currently in state init
+20:23:50.837231 [debug] [MainThread]: On debug: Close
+20:23:50.839232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC11507BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC11517610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC11517040>]}
+20:23:51.750923 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-07 20:24:25.617295 | 5b83353c-0ac4-4cf9-b8ae-beaaa4404e8b ==============================
+20:24:25.617295 [info ] [MainThread]: Running with dbt=1.0.4
+20:24:25.618294 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+20:24:25.618294 [debug] [MainThread]: Tracking: tracking
+20:24:25.634295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7BFF9A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7BFF95E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7BFF98B0>]}
+20:24:25.881314 [debug] [MainThread]: Executing "git --help"
+20:24:25.917317 [debug] [MainThread]: Acquiring new sqlserver connection "debug"
+20:24:25.918318 [debug] [MainThread]: Opening a new connection, currently in state init
+20:24:25.973321 [debug] [MainThread]: On debug: Close
+20:24:25.976321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C33EB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C3485E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C348040>]}
+20:24:26.874901 [debug] [MainThread]: Connection 'debug' was properly closed.
