@@ -105,3 +105,214 @@
 20:24:25.973321 [debug] [MainThread]: On debug: Close
 20:24:25.976321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C33EB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C3485E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A7C348040>]}
 20:24:26.874901 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-07 22:32:37.005009 | 76f9f2e5-2567-4332-b49c-f59b794f8b88 ==============================
+22:32:37.005009 [info ] [MainThread]: Running with dbt=1.0.4
+22:32:37.005009 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+22:32:37.005009 [debug] [MainThread]: Tracking: tracking
+22:32:37.035411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C669AA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C669A5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C669A8B0>]}
+22:32:37.670400 [debug] [MainThread]: Executing "git --help"
+22:32:37.710397 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+22:32:37.711398 [debug] [MainThread]: STDERR: "b''"
+22:32:37.715398 [debug] [MainThread]: Acquiring new sqlserver connection "debug"
+22:32:37.716399 [debug] [MainThread]: Opening a new connection, currently in state init
+22:32:37.922023 [debug] [MainThread]: On debug: Close
+22:32:37.924022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C69DCC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C69EA6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196C69EA100>]}
+22:32:39.140851 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-07 22:33:37.107594 | f2403c6b-1ab1-4c53-99c5-c8145e15f0ff ==============================
+22:33:37.107594 [info ] [MainThread]: Running with dbt=1.0.4
+22:33:37.107594 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, full_refresh=False, cls=<class 'dbt.task.run.RunTask'>, which='run', rpc_method='run')
+22:33:37.112817 [debug] [MainThread]: Tracking: tracking
+22:33:37.113811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FA52940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FA529A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FA529D0>]}
+22:33:37.134163 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+22:33:37.135163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f2403c6b-1ab1-4c53-99c5-c8145e15f0ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FA52D00>]}
+22:33:37.287703 [debug] [MainThread]: Parsing macros\adapters.sql
+22:33:37.287703 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+22:33:37.318952 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+22:33:37.318952 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+22:33:37.334578 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+22:33:37.334578 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+22:33:37.334578 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+22:33:37.334578 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+22:33:37.350202 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+22:33:37.350202 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+22:33:37.350202 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+22:33:37.350202 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+22:33:37.365829 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+22:33:37.381452 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+22:33:37.381452 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+22:33:37.397076 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+22:33:37.397076 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+22:33:37.397076 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+22:33:37.412700 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+22:33:37.412700 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+22:33:37.428325 [debug] [MainThread]: Parsing macros\etc\statement.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+22:33:37.443949 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+22:33:37.459576 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+22:33:37.459576 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+22:33:37.459576 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+22:33:37.475197 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+22:33:37.475197 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+22:33:37.490823 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+22:33:37.506449 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+22:33:37.506449 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+22:33:37.522072 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+22:33:37.522072 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+22:33:37.522072 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+22:33:37.537697 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+22:33:37.537697 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+22:33:37.553323 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+22:33:37.568947 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+22:33:37.584571 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+22:33:37.606473 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+22:33:37.610473 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+22:33:37.625288 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+22:33:37.625288 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+22:33:37.625288 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+22:33:37.640910 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+22:33:37.915743 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+22:33:37.931368 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+22:33:38.009491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f2403c6b-1ab1-4c53-99c5-c8145e15f0ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FA9BA60>]}
+22:33:38.009491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f2403c6b-1ab1-4c53-99c5-c8145e15f0ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FADF520>]}
+22:33:38.009491 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 187 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+22:33:38.026229 [info ] [MainThread]: 
+22:33:38.027223 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+22:33:38.029560 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination"
+22:33:38.045560 [debug] [ThreadPool]: Opening a new connection, currently in state init
+22:33:38.105565 [debug] [ThreadPool]: On list_destination: Close
+22:33:38.107566 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination_dbo"
+22:33:38.115565 [debug] [ThreadPool]: Opening a new connection, currently in state init
+22:33:38.127566 [debug] [ThreadPool]: On list_destination_dbo: ROLLBACK
+22:33:38.127566 [debug] [ThreadPool]: On list_destination_dbo: Close
+22:33:38.128567 [debug] [MainThread]: On master: COMMIT
+22:33:38.129566 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+22:33:38.130568 [info ] [MainThread]: 
+22:33:38.191009 [debug] [Thread-1  ]: Began running node model.studentsproject.my_first_dbt_model
+22:33:38.192011 [info ] [Thread-1  ]: 1 of 2 START table model dbo.my_first_dbt_model................................. [RUN]
+22:33:38.194010 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.my_first_dbt_model"
+22:33:38.195011 [debug] [Thread-1  ]: Began compiling node model.studentsproject.my_first_dbt_model
+22:33:38.196010 [debug] [Thread-1  ]: Compiling model.studentsproject.my_first_dbt_model
+22:33:38.199008 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.my_first_dbt_model"
+22:33:38.208522 [debug] [Thread-1  ]: finished collecting timing info
+22:33:38.210523 [debug] [Thread-1  ]: Began executing node model.studentsproject.my_first_dbt_model
+22:33:38.265524 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.my_first_dbt_model"
+22:33:38.268526 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+22:33:38.534179 [debug] [Thread-1  ]: On model.studentsproject.my_first_dbt_model: COMMIT
+22:33:38.534179 [debug] [Thread-1  ]: finished collecting timing info
+22:33:38.534179 [debug] [Thread-1  ]: On model.studentsproject.my_first_dbt_model: Close
+22:33:38.534179 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2403c6b-1ab1-4c53-99c5-c8145e15f0ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FF9E610>]}
+22:33:38.534179 [info ] [Thread-1  ]: 1 of 2 OK created table model dbo.my_first_dbt_model............................ [[32mOK[0m in 0.34s]
+22:33:38.534179 [debug] [Thread-1  ]: Finished running node model.studentsproject.my_first_dbt_model
+22:33:38.547591 [debug] [Thread-1  ]: Began running node model.studentsproject.my_second_dbt_model
+22:33:38.548586 [info ] [Thread-1  ]: 2 of 2 START view model dbo.my_second_dbt_model................................. [RUN]
+22:33:38.549585 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.my_second_dbt_model"
+22:33:38.550587 [debug] [Thread-1  ]: Began compiling node model.studentsproject.my_second_dbt_model
+22:33:38.550587 [debug] [Thread-1  ]: Compiling model.studentsproject.my_second_dbt_model
+22:33:38.554586 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.my_second_dbt_model"
+22:33:38.556326 [debug] [Thread-1  ]: finished collecting timing info
+22:33:38.557326 [debug] [Thread-1  ]: Began executing node model.studentsproject.my_second_dbt_model
+22:33:38.583326 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.my_second_dbt_model"
+22:33:38.585327 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+22:33:38.600882 [debug] [Thread-1  ]: On model.studentsproject.my_second_dbt_model: COMMIT
+22:33:38.605882 [debug] [Thread-1  ]: finished collecting timing info
+22:33:38.605882 [debug] [Thread-1  ]: On model.studentsproject.my_second_dbt_model: Close
+22:33:38.606882 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2403c6b-1ab1-4c53-99c5-c8145e15f0ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020150004100>]}
+22:33:38.607882 [info ] [Thread-1  ]: 2 of 2 OK created view model dbo.my_second_dbt_model............................ [[32mOK[0m in 0.06s]
+22:33:38.608884 [debug] [Thread-1  ]: Finished running node model.studentsproject.my_second_dbt_model
+22:33:38.610883 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+22:33:38.611884 [debug] [MainThread]: On master: COMMIT
+22:33:38.612882 [info ] [MainThread]: 
+22:33:38.613883 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0.59s.
+22:33:38.615884 [debug] [MainThread]: Connection 'master' was properly closed.
+22:33:38.615884 [debug] [MainThread]: Connection 'list_destination' was properly closed.
+22:33:38.616885 [debug] [MainThread]: Connection 'list_destination_dbo' was properly closed.
+22:33:38.616885 [debug] [MainThread]: Connection 'model.studentsproject.my_second_dbt_model' was properly closed.
+22:33:38.625885 [info ] [MainThread]: 
+22:33:38.627884 [info ] [MainThread]: [32mCompleted successfully[0m
+22:33:38.629885 [info ] [MainThread]: 
+22:33:38.630885 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+22:33:38.632885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014CC1DDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014CC1DC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002014FADCE50>]}
+
+
+============================== 2022-06-07 22:33:59.986519 | c6d1458a-f907-4f84-9d07-2e135d27d579 ==============================
+22:33:59.986519 [info ] [MainThread]: Running with dbt=1.0.4
+22:33:59.986519 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, full_refresh=False, cls=<class 'dbt.task.run.RunTask'>, which='run', rpc_method='run')
+22:33:59.986519 [debug] [MainThread]: Tracking: tracking
+22:33:59.986519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE51910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE51A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE519D0>]}
+22:34:00.090538 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+22:34:00.090538 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+22:34:00.090538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c6d1458a-f907-4f84-9d07-2e135d27d579', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03B099FA0>]}
+22:34:00.106163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c6d1458a-f907-4f84-9d07-2e135d27d579', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE6AEB0>]}
+22:34:00.106163 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 187 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+22:34:00.111697 [info ] [MainThread]: 
+22:34:00.112691 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+22:34:00.113799 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination"
+22:34:00.113799 [debug] [ThreadPool]: Opening a new connection, currently in state init
+22:34:00.163866 [debug] [ThreadPool]: On list_destination: Close
+22:34:00.163866 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination_dbo"
+22:34:00.163866 [debug] [ThreadPool]: Opening a new connection, currently in state init
+22:34:00.179491 [debug] [ThreadPool]: On list_destination_dbo: ROLLBACK
+22:34:00.179491 [debug] [ThreadPool]: On list_destination_dbo: Close
+22:34:00.179491 [debug] [MainThread]: On master: COMMIT
+22:34:00.179491 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+22:34:00.179491 [info ] [MainThread]: 
+22:34:00.189082 [debug] [Thread-1  ]: Began running node model.studentsproject.my_first_dbt_model
+22:34:00.189082 [info ] [Thread-1  ]: 1 of 2 START table model dbo.my_first_dbt_model................................. [RUN]
+22:34:00.189082 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.my_first_dbt_model"
+22:34:00.193737 [debug] [Thread-1  ]: Began compiling node model.studentsproject.my_first_dbt_model
+22:34:00.193737 [debug] [Thread-1  ]: Compiling model.studentsproject.my_first_dbt_model
+22:34:00.195786 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.my_first_dbt_model"
+22:34:00.195786 [debug] [Thread-1  ]: finished collecting timing info
+22:34:00.195786 [debug] [Thread-1  ]: Began executing node model.studentsproject.my_first_dbt_model
+22:34:00.242655 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.my_first_dbt_model"
+22:34:00.242655 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+22:34:00.289530 [debug] [Thread-1  ]: On model.studentsproject.my_first_dbt_model: COMMIT
+22:34:00.305154 [debug] [Thread-1  ]: finished collecting timing info
+22:34:00.305154 [debug] [Thread-1  ]: On model.studentsproject.my_first_dbt_model: Close
+22:34:00.305154 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c6d1458a-f907-4f84-9d07-2e135d27d579', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E23AFA0>]}
+22:34:00.305154 [info ] [Thread-1  ]: 1 of 2 OK created table model dbo.my_first_dbt_model............................ [[32mOK[0m in 0.12s]
+22:34:00.305154 [debug] [Thread-1  ]: Finished running node model.studentsproject.my_first_dbt_model
+22:34:00.317036 [debug] [Thread-1  ]: Began running node model.studentsproject.my_second_dbt_model
+22:34:00.317036 [info ] [Thread-1  ]: 2 of 2 START view model dbo.my_second_dbt_model................................. [RUN]
+22:34:00.319031 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.my_second_dbt_model"
+22:34:00.319591 [debug] [Thread-1  ]: Began compiling node model.studentsproject.my_second_dbt_model
+22:34:00.319591 [debug] [Thread-1  ]: Compiling model.studentsproject.my_second_dbt_model
+22:34:00.321861 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.my_second_dbt_model"
+22:34:00.321861 [debug] [Thread-1  ]: finished collecting timing info
+22:34:00.321861 [debug] [Thread-1  ]: Began executing node model.studentsproject.my_second_dbt_model
+22:34:00.340739 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.my_second_dbt_model"
+22:34:00.340739 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+22:34:00.356360 [debug] [Thread-1  ]: On model.studentsproject.my_second_dbt_model: COMMIT
+22:34:00.371983 [debug] [Thread-1  ]: finished collecting timing info
+22:34:00.371983 [debug] [Thread-1  ]: On model.studentsproject.my_second_dbt_model: Close
+22:34:00.371983 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c6d1458a-f907-4f84-9d07-2e135d27d579', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E3F1DC0>]}
+22:34:00.371983 [info ] [Thread-1  ]: 2 of 2 OK created view model dbo.my_second_dbt_model............................ [[32mOK[0m in 0.05s]
+22:34:00.371983 [debug] [Thread-1  ]: Finished running node model.studentsproject.my_second_dbt_model
+22:34:00.381898 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+22:34:00.381898 [debug] [MainThread]: On master: COMMIT
+22:34:00.382894 [info ] [MainThread]: 
+22:34:00.383892 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0.27s.
+22:34:00.384893 [debug] [MainThread]: Connection 'master' was properly closed.
+22:34:00.385894 [debug] [MainThread]: Connection 'list_destination' was properly closed.
+22:34:00.386893 [debug] [MainThread]: Connection 'list_destination_dbo' was properly closed.
+22:34:00.386893 [debug] [MainThread]: Connection 'model.studentsproject.my_second_dbt_model' was properly closed.
+22:34:00.388449 [info ] [MainThread]: 
+22:34:00.388449 [info ] [MainThread]: [32mCompleted successfully[0m
+22:34:00.398224 [info ] [MainThread]: 
+22:34:00.399219 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+22:34:00.399972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE3E340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E119C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E41AA90>]}
