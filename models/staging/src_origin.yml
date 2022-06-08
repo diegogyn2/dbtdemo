@@ -5,3 +5,6 @@ sources:
         schema: origin
         tables:
               - name: sales
+              - name: address
+              - name: phone
+              - name: sellers

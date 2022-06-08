@@ -35,4 +35,5 @@ models:
   studentsproject:
     # Config indicated by + and applies to all files under models/example/
     staging:
-      +materialized: view
+      +materialized: table
+      +schema: final
