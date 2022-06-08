@@ -316,3 +316,228 @@
 22:34:00.398224 [info ] [MainThread]: 
 22:34:00.399219 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
 22:34:00.399972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03DE3E340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E119C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E03E41AA90>]}
+
+
+============================== 2022-06-07 23:41:02.142695 | 0ebb3245-fa41-452e-a267-536dcdcb6aa5 ==============================
+23:41:02.142695 [info ] [MainThread]: Running with dbt=1.0.4
+23:41:02.142695 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, full_refresh=False, cls=<class 'dbt.task.run.RunTask'>, which='run', rpc_method='run')
+23:41:02.147830 [debug] [MainThread]: Tracking: tracking
+23:41:02.147830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200946018B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020094601970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020094601A00>]}
+23:41:02.182825 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+23:41:02.183826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0ebb3245-fa41-452e-a267-536dcdcb6aa5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200945FE610>]}
+23:41:02.259831 [debug] [MainThread]: Parsing macros\adapters.sql
+23:41:02.259831 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+23:41:02.268832 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+23:41:02.269833 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+23:41:02.279833 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+23:41:02.284833 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+23:41:02.285834 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+23:41:02.286873 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+23:41:02.286873 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+23:41:02.286873 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+23:41:02.302495 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+23:41:02.302495 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+23:41:02.318120 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+23:41:02.333744 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+23:41:02.349369 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+23:41:02.349369 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+23:41:02.349369 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+23:41:02.364993 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+23:41:02.364993 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+23:41:02.380617 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+23:41:02.380617 [debug] [MainThread]: Parsing macros\etc\statement.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+23:41:02.396242 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+23:41:02.411868 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+23:41:02.411868 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+23:41:02.411868 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+23:41:02.411868 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+23:41:02.427492 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+23:41:02.427492 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+23:41:02.443116 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+23:41:02.474990 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+23:41:02.480990 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+23:41:02.486413 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+23:41:02.486413 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+23:41:02.486413 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+23:41:02.486413 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+23:41:02.502034 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+23:41:02.517659 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+23:41:02.533282 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+23:41:02.548908 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+23:41:02.564533 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+23:41:02.564533 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+23:41:02.580157 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+23:41:02.580157 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+23:41:02.595782 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+23:41:02.595782 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+23:41:02.833298 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_sales.sql
+23:41:02.880192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0ebb3245-fa41-452e-a267-536dcdcb6aa5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200917AD880>]}
+23:41:02.895798 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0ebb3245-fa41-452e-a267-536dcdcb6aa5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009180E5E0>]}
+23:41:02.895798 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 187 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+23:41:02.898291 [info ] [MainThread]: 
+23:41:02.899286 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+23:41:02.901765 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination"
+23:41:02.915765 [debug] [ThreadPool]: Opening a new connection, currently in state init
+23:41:02.963769 [debug] [ThreadPool]: On list_destination: Close
+23:41:02.964770 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination_dbo"
+23:41:02.973769 [debug] [ThreadPool]: Opening a new connection, currently in state init
+23:41:02.977770 [debug] [ThreadPool]: On list_destination_dbo: ROLLBACK
+23:41:02.978770 [debug] [ThreadPool]: On list_destination_dbo: Close
+23:41:02.979771 [debug] [MainThread]: On master: COMMIT
+23:41:02.979771 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+23:41:02.980770 [info ] [MainThread]: 
+23:41:02.988774 [debug] [Thread-1  ]: Began running node model.studentsproject.stg_sales
+23:41:02.989771 [info ] [Thread-1  ]: 1 of 1 START view model dbo.stg_sales........................................... [RUN]
+23:41:02.990772 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.stg_sales"
+23:41:02.991773 [debug] [Thread-1  ]: Began compiling node model.studentsproject.stg_sales
+23:41:02.992773 [debug] [Thread-1  ]: Compiling model.studentsproject.stg_sales
+23:41:02.995771 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.stg_sales"
+23:41:02.996771 [debug] [Thread-1  ]: finished collecting timing info
+23:41:02.997774 [debug] [Thread-1  ]: Began executing node model.studentsproject.stg_sales
+23:41:03.030774 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.stg_sales"
+23:41:03.031774 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+23:41:03.068776 [debug] [Thread-1  ]: On model.studentsproject.stg_sales: COMMIT
+23:41:03.083778 [debug] [Thread-1  ]: finished collecting timing info
+23:41:03.083778 [debug] [Thread-1  ]: On model.studentsproject.stg_sales: Close
+23:41:03.084779 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0ebb3245-fa41-452e-a267-536dcdcb6aa5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020094B4BD00>]}
+23:41:03.085779 [info ] [Thread-1  ]: 1 of 1 OK created view model dbo.stg_sales...................................... [[32mOK[0m in 0.09s]
+23:41:03.087780 [debug] [Thread-1  ]: Finished running node model.studentsproject.stg_sales
+23:41:03.088779 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+23:41:03.089780 [debug] [MainThread]: On master: COMMIT
+23:41:03.090780 [info ] [MainThread]: 
+23:41:03.091781 [info ] [MainThread]: Finished running 1 view model in 0.19s.
+23:41:03.092780 [debug] [MainThread]: Connection 'master' was properly closed.
+23:41:03.093780 [debug] [MainThread]: Connection 'list_destination' was properly closed.
+23:41:03.093780 [debug] [MainThread]: Connection 'list_destination_dbo' was properly closed.
+23:41:03.094781 [debug] [MainThread]: Connection 'model.studentsproject.stg_sales' was properly closed.
+23:41:03.099779 [info ] [MainThread]: 
+23:41:03.100779 [info ] [MainThread]: [32mCompleted successfully[0m
+23:41:03.102781 [info ] [MainThread]: 
+23:41:03.103783 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+23:41:03.104782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200917F7FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009177CDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009177CC40>]}
+
+
+============================== 2022-06-08 00:02:43.115823 | e7bfbe3d-2a23-419f-b368-02acb3f022b6 ==============================
+00:02:43.115823 [info ] [MainThread]: Running with dbt=1.0.4
+00:02:43.115823 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\DIEGO\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, full_refresh=False, cls=<class 'dbt.task.run.RunTask'>, which='run', rpc_method='run')
+00:02:43.115823 [debug] [MainThread]: Tracking: tracking
+00:02:43.121579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC6251670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC62516D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC6251730>]}
+00:02:43.155135 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+00:02:43.155135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e7bfbe3d-2a23-419f-b368-02acb3f022b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC6250250>]}
+00:02:43.229709 [debug] [MainThread]: Parsing macros\adapters.sql
+00:02:43.229709 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+00:02:43.229709 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+00:02:43.229709 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+00:02:43.245332 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+00:02:43.245332 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+00:02:43.260957 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+00:02:43.260957 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+00:02:43.260957 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+00:02:43.276582 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+00:02:43.276582 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+00:02:43.276582 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+00:02:43.292207 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+00:02:43.292207 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+00:02:43.292207 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+00:02:43.292207 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+00:02:43.292207 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+00:02:43.307831 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+00:02:43.323455 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+00:02:43.323455 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+00:02:43.323455 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+00:02:43.339080 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+00:02:43.339080 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+00:02:43.354705 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+00:02:43.354705 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+00:02:43.370330 [debug] [MainThread]: Parsing macros\etc\statement.sql
+00:02:43.370330 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+00:02:43.370330 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+00:02:43.370330 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+00:02:43.385955 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+00:02:43.385955 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+00:02:43.385955 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+00:02:43.385955 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+00:02:43.385955 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+00:02:43.401578 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+00:02:43.401578 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+00:02:43.401578 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+00:02:43.417203 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+00:02:43.417203 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+00:02:43.432828 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+00:02:43.464077 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+00:02:43.464077 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+00:02:43.464077 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+00:02:43.479701 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+00:02:43.479701 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+00:02:43.479701 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+00:02:43.495326 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+00:02:43.510951 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+00:02:43.510951 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+00:02:43.526575 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+00:02:43.542199 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+00:02:43.557824 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+00:02:43.573449 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+00:02:43.573449 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+00:02:43.589075 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+00:02:43.589075 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+00:02:43.857937 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_sales.sql
+00:02:43.920437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e7bfbe3d-2a23-419f-b368-02acb3f022b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC34A4B80>]}
+00:02:43.920437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e7bfbe3d-2a23-419f-b368-02acb3f022b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC34A4190>]}
+00:02:43.920437 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 187 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+00:02:43.932273 [info ] [MainThread]: 
+00:02:43.933266 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+00:02:43.934832 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination"
+00:02:43.934832 [debug] [ThreadPool]: Opening a new connection, currently in state init
+00:02:43.985290 [debug] [ThreadPool]: On list_destination: Close
+00:02:43.985290 [debug] [ThreadPool]: Acquiring new sqlserver connection "list_destination_dbo"
+00:02:43.985290 [debug] [ThreadPool]: Opening a new connection, currently in state init
+00:02:44.000916 [debug] [ThreadPool]: On list_destination_dbo: ROLLBACK
+00:02:44.000916 [debug] [ThreadPool]: On list_destination_dbo: Close
+00:02:44.000916 [debug] [MainThread]: On master: COMMIT
+00:02:44.000916 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+00:02:44.000916 [info ] [MainThread]: 
+00:02:44.011565 [debug] [Thread-1  ]: Began running node model.studentsproject.stg_sales
+00:02:44.011565 [info ] [Thread-1  ]: 1 of 1 START view model dbo.stg_sales........................................... [RUN]
+00:02:44.011565 [debug] [Thread-1  ]: Acquiring new sqlserver connection "model.studentsproject.stg_sales"
+00:02:44.016885 [debug] [Thread-1  ]: Began compiling node model.studentsproject.stg_sales
+00:02:44.016885 [debug] [Thread-1  ]: Compiling model.studentsproject.stg_sales
+00:02:44.018465 [debug] [Thread-1  ]: Writing injected SQL for node "model.studentsproject.stg_sales"
+00:02:44.018465 [debug] [Thread-1  ]: finished collecting timing info
+00:02:44.018465 [debug] [Thread-1  ]: Began executing node model.studentsproject.stg_sales
+00:02:44.049710 [debug] [Thread-1  ]: Writing runtime SQL for node "model.studentsproject.stg_sales"
+00:02:44.049710 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+00:02:44.049710 [debug] [Thread-1  ]: finished collecting timing info
+00:02:44.049710 [debug] [Thread-1  ]: On model.studentsproject.stg_sales: ROLLBACK
+00:02:44.049710 [debug] [Thread-1  ]: On model.studentsproject.stg_sales: Close
+00:02:44.065335 [error] [Thread-1  ]: [31mUnhandled error while executing model.studentsproject.stg_sales[0m
+('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nome de objeto 'destination.origin.sales' inválido. (208) (SQLMoreResults)")
+00:02:44.065335 [debug] [Thread-1  ]: 
+00:02:44.065335 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e7bfbe3d-2a23-419f-b368-02acb3f022b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC6520F70>]}
+00:02:44.068937 [error] [Thread-1  ]: 1 of 1 ERROR creating view model dbo.stg_sales.................................. [[31mERROR[0m in 0.05s]
+00:02:44.069932 [debug] [Thread-1  ]: Finished running node model.studentsproject.stg_sales
+00:02:44.071932 [debug] [MainThread]: Acquiring new sqlserver connection "master"
+00:02:44.071932 [debug] [MainThread]: On master: COMMIT
+00:02:44.072932 [info ] [MainThread]: 
+00:02:44.074214 [info ] [MainThread]: Finished running 1 view model in 0.14s.
+00:02:44.075810 [debug] [MainThread]: Connection 'master' was properly closed.
+00:02:44.076806 [debug] [MainThread]: Connection 'list_destination' was properly closed.
+00:02:44.076806 [debug] [MainThread]: Connection 'list_destination_dbo' was properly closed.
+00:02:44.077436 [debug] [MainThread]: Connection 'model.studentsproject.stg_sales' was properly closed.
+00:02:44.080823 [info ] [MainThread]: 
+00:02:44.080823 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+00:02:44.086930 [info ] [MainThread]: 
+00:02:44.087925 [error] [MainThread]: [33m('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nome de objeto 'destination.origin.sales' inválido. (208) (SQLMoreResults)")[0m
+00:02:44.088926 [info ] [MainThread]: 
+00:02:44.090927 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+00:02:44.091925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC34A4250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC349A340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC34A0160>]}

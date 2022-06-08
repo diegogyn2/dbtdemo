@@ -1,0 +1,45 @@
+{
+    "python.pythonPath": "C:\\Users\\DIEGO\\Anaconda3\\envs\\diegodbt\\",
+    "python.defaultInterpreterPath": "C:\\Users\\DIEGO\\Anaconda3\\envs\\diegodbt\\",
+    "files.associations": {
+        "*.sql": "jinja-sql", // all .sql files
+        // optional: don't format models in `target/` dir
+        "**/target/**": "",
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    // sqlfluff
+    "sql.linter.executablePath": "C:\\Users\\DIEGO\\Anaconda3\\envs\\diegodbt\\Scripts\\sqlfluff.exe",
+    "sql.linter.run": "onType",
+    // this is so you can easily jump to your compiled SQL files
+    "findrelated.workspaceRulesets": [
+        {
+            "name": "sql",
+            "rules": [
+                {
+                    "pattern": "^(.*/)?models/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/compiled/**/$3"
+                    ]
+                },
+                {
+                    "pattern": "^(.*/)?compiled/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/run/**/$3"
+                    ]
+                },
+                {
+                    "pattern": "^(.*/)?run/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/models/**/$3"
+                    ]
+                }
+            ]
+        }
+    ],
+    "findrelated.applyRulesets": [
+        "sql"
+    ],
+    "terminal.integrated.profiles.window": "C:\\Windows\\System32\\cmd.exe",
+}
