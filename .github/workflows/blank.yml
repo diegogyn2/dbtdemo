@@ -22,8 +22,29 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it     
+      - name: Check out the repository code
       - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.9.x"
+          
+      - name: Install Poetry and dependencies
+        run: |
+          python3.9 -m pip install poetry
+          poetry config virtualenvs.create false
+          poetry install --no-interaction --no-ansi --no-dev
+        
+      - name: Install dbt dependencies
+        run: dbt deps
+        
+      - name: Run tests against sources only
+        run: dbt test --target prod
+        
+      - name: Run DBT against staging
+        run: dbt run --target prod
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
