@@ -1,7 +1,7 @@
 WITH
 
 sales AS (
-    SELECT * FROM {{ source ('origin', 'sales') }}
+    SELECT * FROM {{ source ('raw', 'sales') }}
 ),
 
 final AS (

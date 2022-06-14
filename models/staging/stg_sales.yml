@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: teste
+    columns:
+      - name: SALES_ID
+        description: teste
+        tests:
+          - not_null
+          - dbt_utils.at_least_one

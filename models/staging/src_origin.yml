@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-      - name: origin
-        schema: origin
+      - name: raw
+        schema: raw
         tables:
               - name: sales
               - name: address
